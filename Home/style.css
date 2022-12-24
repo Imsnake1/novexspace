@@ -1,0 +1,101 @@
+*{
+    text-decoration: none;
+    padding: 0;
+}
+
+body{
+    background-image: url(/Home/assets/Space.jpg);
+    background-repeat: no-repeat;
+    background-size: 205vh 50vw;
+}
+
+#Star{
+    display: flex;
+    width: 2%;
+    flex-direction: row;
+    height: 3%;
+    margin-left: 87%;
+}
+
+#words{
+    margin-top: -1%;
+    margin-left: 90%;
+    color: red;
+}
+
+#nav{
+    border:  1px white solid;
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    background-color: white;
+}
+
+#nav_links{
+    justify-content: space-between;
+    color: black;
+    display: flex;
+    width: 50%; 
+}
+
+#linux{
+    height: 20%;
+}
+
+#title{
+    color: white;
+    margin-left: 5%;
+    margin-top: 20%;
+}
+
+#par{
+    color: white;
+    margin-left: 5%;
+}
+
+.button{
+    border-radius: 4px;
+    background-color: red;
+    position: relative;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+#head{
+    position: absolute;
+}
+
+#nov{
+    color: blue;
+}
+
+#thebigone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.anim{
+    animation: ex 1s ease-in infinite alternate both;
+    transition: all 1s ease-out;
+      background-size: 200% 100%;
+      background-image: linear-gradient(to right, tomato, thistle);
+  }
+  
+  @keyframes ex {
+    from {
+      background-position: 0 0 ;
+    }
+    to {
+      background-position: 400% 0;
+    }
+    
+  }

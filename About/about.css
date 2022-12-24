@@ -1,0 +1,110 @@
+*{
+    text-decoration: none;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to bottom, rgb(140, 148, 194), beige);
+    height: 100vh;
+}
+
+#head{
+    display: flex;
+    flex-direction: row;
+}
+
+#novex{
+    margin-right: auto;
+    color: blue;
+}
+
+#nov{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#Star{
+    height: 41%;
+}
+
+#words{
+    color: red;
+}
+
+#nav{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+    background-color: rgb(244, 218, 218);
+}
+
+#nav_links{
+    justify-content: space-between;
+    color: black;
+    display: flex;
+    width: 50%; 
+}
+
+#linux{
+    height: 20%;
+    margin-left: auto;
+}
+
+#main-div{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-left: 25%;
+    margin-top: 7%;
+}
+
+.about-us{
+    margin-top: 16%;
+}
+
+.about-us span{
+    background-color: brown;
+}
+
+#rocket{
+    margin-top: -10%;
+    margin-left: -14%;
+}
+
+#sp{
+    color: red;
+}
+
+#sp, .why{
+    font-size: 15px;
+}
+
+#images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    height: fit-content;
+}
+
+.galaxy{
+    flex-direction: row;
+    display: flex;
+    height: 46%;
+}
+
+#galaxy-first, #galaxy-sec, #galaxy-third{
+    background-color: bisque;
+    width: 4%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
